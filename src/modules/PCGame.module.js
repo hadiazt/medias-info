@@ -21,6 +21,9 @@ module.exports = async ({ name }) => {
                     const category = $(item).children("td:nth-child(1)").children("a").text();
                     const size = $(item).children("td:nth-child(3)").text();
 
+                    if (link.substring(0, 5) === "https") {
+                        PC.push({ category, title, size, link });
+                    }
 
                 }
             });
