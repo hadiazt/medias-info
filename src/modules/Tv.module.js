@@ -28,7 +28,12 @@ module.exports = async ({ name }) => {
                 }
             });
 
-            resolve(TV)
+            if (TV.length < 1) {
+                resolve({ code: 404, msg: 'No Data Found For Entry' })
+            } else {
+                resolve(TV)
+            }
+
         }).catch(e => { console.log(e?.response?.data?.message || e) });
     });
 };
