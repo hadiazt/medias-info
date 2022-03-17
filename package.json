@@ -1,6 +1,6 @@
 {
   "name": "medias-info",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Scrap Media Info Such As Information &amp; Download Link",
   "main": "src/main.js",
   "scripts": {
