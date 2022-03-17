@@ -1,0 +1,34 @@
+{
+  "name": "medias-info",
+  "version": "0.0.1",
+  "description": "Scrap Media Info Such As Information &amp; Download Link",
+  "main": "src/main.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hadiazt/medias-info.git"
+  },
+  "keywords": [
+    "media",
+    "info",
+    "data",
+    "download",
+    "music",
+    "moive"
+  ],
+  "author": "hadi.az",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hadiazt/medias-info/issues"
+  },
+  "homepage": "https://github.com/hadiazt/medias-info#readme",
+  "devDependencies": {
+    "axios": "^0.26.1",
+    "cheerio": "^1.0.0-rc.10"
+  }
+}
