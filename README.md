@@ -1,7 +1,7 @@
 <h1 align="center">
 Medias Info
 </h1>
-<h3 align="center">An <a href="https://nodejs.org/">NODE</a> Module For Getting Download Link And Some Extra Info For You Entry Called <a href="https://www.npmjs.com/package/discord-info">Discord Info</a></h3>
+<h3 align="center">An <a href="https://nodejs.org/">NODE</a> Module For Getting Download Link And Some Extra Info For You Entry Called <a href="https://www.npmjs.com/package/discord-info">Medias Info</a></h3>
 
 # 
 ## Functions :
